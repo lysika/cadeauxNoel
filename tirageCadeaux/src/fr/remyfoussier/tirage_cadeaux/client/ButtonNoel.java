@@ -8,7 +8,6 @@ public class ButtonNoel extends Button {
 
 	public ButtonNoel(String name) {
 		super(name);
-		setSize("100%", "100%");
 		setStyleName(StyleCSS.STYLE_BOUTON_LEFT);
 	}
 

@@ -32,15 +32,12 @@ public class TirageCadeaux implements EntryPoint {
 
 		final HeaderPane header = new HeaderPane();
 		final FooterPane footer = new FooterPane();
+		
 		final BodyPane body = new BodyPane();
-		final LeftPane bandeau = new LeftPane();
-
 		VerticalPanel verti = new VerticalPanel();
 		dock.add(header,DockPanel.NORTH);
 
-		dock.add(bandeau,DockPanel.WEST);
 		dock.add(body,DockPanel.CENTER);
-		dock.setCellWidth(bandeau, "30%");
 		verti.setSize("100%", "100%");
 		verti.add(dock);
 		verti.add(footer);

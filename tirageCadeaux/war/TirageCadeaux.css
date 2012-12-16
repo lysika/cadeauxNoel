@@ -35,12 +35,12 @@ h1 {
 
 .bodyPane{
    border-top: 1px solid #eb1e52;
-   background: #d66565;
-   background: -webkit-gradient(linear, left top, left bottom, from(#d62a1e), to(#d66565));
-   background: -webkit-linear-gradient(top, #d62a1e, #d66565);
-   background: -moz-linear-gradient(top, #d62a1e, #d66565);
-   background: -ms-linear-gradient(top, #d62a1e, #d66565);
-   background: -o-linear-gradient(top, #d62a1e, #d66565);
+   background: #CECECE;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d62a1e), to(#CECECE));
+   background: -webkit-linear-gradient(top, #d62a1e, #CECECE);
+   background: -moz-linear-gradient(top, #d62a1e, #CECECE);
+   background: -ms-linear-gradient(top, #d62a1e, #CECECE);
+   background: -o-linear-gradient(top, #d62a1e, #CECECE);
    padding: 10px 20px;
    -webkit-border-radius: 13px;
    -moz-border-radius: 13px;
@@ -97,5 +97,12 @@ h1 {
    border-top-color: #1b435e;
    background: #1b435e;
    }
-   
+ .textBoxCadeauDefaut{
+ 	font-style: italic;
+	color :gray;
+	} 
+ .textBoxCadeauFocus{
+ 	font-style: normal;
+	color :black;
+	} 
  
