@@ -1,0 +1,2 @@
+serviceClass: fr.remyfoussier.tirage_cadeaux.client.GreetingService
+path: CFB60E1996658D98CAA71A64536B7D89.gwt.rpc

@@ -1,0 +1,101 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.bodyPane{
+   border-top: 1px solid #eb1e52;
+   background: #d66565;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d62a1e), to(#d66565));
+   background: -webkit-linear-gradient(top, #d62a1e, #d66565);
+   background: -moz-linear-gradient(top, #d62a1e, #d66565);
+   background: -ms-linear-gradient(top, #d62a1e, #d66565);
+   background: -o-linear-gradient(top, #d62a1e, #d66565);
+   padding: 10px 20px;
+   -webkit-border-radius: 13px;
+   -moz-border-radius: 13px;
+   border-radius: 13px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+}
+.leftPane{
+}
+.headerPane{
+	
+}
+.footerPane{
+	text-align: justify;
+	font: italic;
+}
+
+.button {
+   border-top: 1px solid #eb1e52;
+   background: #d66565;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d62a1e), to(#d66565));
+   background: -webkit-linear-gradient(top, #d62a1e, #d66565);
+   background: -moz-linear-gradient(top, #d62a1e, #d66565);
+   background: -ms-linear-gradient(top, #d62a1e, #d66565);
+   background: -o-linear-gradient(top, #d62a1e, #d66565);
+   padding: 10px 20px;
+   -webkit-border-radius: 13px;
+   -moz-border-radius: 13px;
+   border-radius: 13px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #d96f6f;
+   background: #d96f6f;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+   
+ 
